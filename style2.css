@@ -1,0 +1,366 @@
+body{
+  background: #ffffff;
+font-size: 4mm;
+}
+nav{
+  text-align: right;
+  background:  #000000;
+
+}
+.uglyph{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  text-align: right;
+}
+.uglyph:hover{
+    color:  #e6005c;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hnav{
+
+font-family: 'Jomhuria', cursive;
+font-size: 3.5em;
+}
+/* .hnav:hover{
+    color:  #e6005c;
+} */
+  .fnav{
+font-family: 'PT Sans', sans-serif;
+font-size: 1.1em;
+}
+
+.links{
+   display: inline-block;
+text-decoration: none;
+   color: white;
+   padding: 16px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: none;
+}
+.menu-btn {
+   background-color:#ffb3b3;
+   color: white;
+   padding: 16px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: none;
+}
+
+.menu-content {
+   display: none;
+   position: absolute;
+   background-color:#ffffff;
+   min-width: 160px;
+   z-index: 1;
+}
+
+.links{
+   display: inline-block;
+  /* background-color:#ffb3b3;*/
+   color: white;
+   padding: 16px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: none;
+}
+
+.subtitle{
+  background:  #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+.links:hover{
+  background-color: #e6005c;
+}
+h2:hover{
+  color:  #e6005c;
+}
+
+
+.title{
+  color: #000000;
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+.link{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.link:hover{
+    color:  #e6005c;
+}
+
+.txt{
+  text-align: center;
+  color: black;
+}
+.mtxt{
+    color: black;
+    text-align: center;
+}
+.vmenu{
+  background:  #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  display: block;
+  margin: -3px -3px -3px -3px;
+  cursor: pointer;
+
+}
+.vmenu:hover{
+  background-color:#e6005c;
+  border: 2px solid #000000;
+}
+.btn_menu{
+  text-align: center;
+  border:none;
+  outline:none;
+
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #000000;
+  color: white;
+}
+.hfoot{
+
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #000000;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(5%, 40%);
+}
+/* CONTACT */
+.vmenu1{
+  background:  #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 30px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  display: block;
+  margin: -3px -3px;
+  cursor: pointer;
+
+}
+.vmenu1:hover{
+  background-color:#e6005c;
+  border: 2px solid #000000;
+}
+/* MENU */
+.shead{
+
+  text-align: center;
+}
+/* Register */
+.container2 {
+  position: relative;
+  text-align: center;
+  color: #000000;
+}
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -20%);
+}
+.img_avatar{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.vmenu2{
+  background:  #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 40px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  /* display: block;
+  margin: -3px -3px; */
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-100%, 250%);
+}
+.vmenu2:hover{
+  background-color:#e6005c;
+  border: 2px solid #000000;
+}
+/* LOGIN */
+.centered3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container3{
+  position: relative;
+  text-align: center;
+  color: #000000;
+}
+.vmenu3{
+  background:  #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 40px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  /* display: block;
+  margin: -3px -3px; */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 500%);
+}
+.vmenu3:hover{
+  background-color:#e6005c;
+  border: 2px solid #000000;
+}
+.vmenu4{
+  background:  #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 40px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  /* display: block;
+  margin: -3px -3px; */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 600%);
+}
+/* .vmenu4:hover{
+  background-color:#e6005c;
+  border: 2px solid #000000;
+} */
+.rlogin{
+text-decoration: none;
+color: #000000;
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: none;
+text-align: center;
+}
+.rlogin:hover{
+    color:  #e6005c;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #e6005c;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  display: inline-block;
+text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  text-align: center;
+}
+/* .sidenav a:active{
+  background-color: #000000;
+} */
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #000000;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.tbl2{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin:20px 10px;
+}
